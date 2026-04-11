@@ -21,7 +21,8 @@ jobs:
         run: pip install -r "Analisador de texto/requirements.txt"
 
       - name: Rodar testes
-        run: python -m pytest "Analisador de texto"
+        working-directory: "Analisador de texto"
+        run: python -m pytest
 
       - name: Rodar lint
         run: flake8 "Analisador de texto"
