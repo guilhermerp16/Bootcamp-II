@@ -18,11 +18,16 @@ jobs:
           python-version: 3.13.12
 
       - name: Instalar dependências
-        run: pip install -r "Analisador de texto/requirements.txt"
+        working-directory: "Analisador de texto"
+        run: pip install -r requirements.txt
+
+      - name: Instalar ferramentas de qualidade
+        run: pip install pytest flake8
 
       - name: Rodar testes
         working-directory: "Analisador de texto"
-        run: python -m pytest
+        run: pytest
 
       - name: Rodar lint
-        run: flake8 "Analisador de texto"
+        working-directory: "Analisador de texto"
+        run: flake8 .
