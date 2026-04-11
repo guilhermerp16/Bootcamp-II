@@ -44,6 +44,7 @@ python app/main.py
 ## 🧪 Executar testes
 
 ```bash
+cd "Analisador de texto"
 python -m pytest
 ```
 
