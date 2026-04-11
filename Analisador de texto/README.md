@@ -2,39 +2,36 @@
 
 ## 📌 Descrição do problema
 
-Muitos estudantes e usuários em geral têm dificuldade em analisar seus próprios textos, especialmente para identificar repetições excessivas, estrutura básica e padrões de escrita. Isso pode impactar negativamente na qualidade de redações, trabalhos acadêmicos e comunicação escrita.
+Muitas pessoas, como estudantes, escritores iniciantes e profissionais, têm dificuldade em analisar rapidamente a qualidade de um texto, como quantidade de palavras, frequência de termos e estrutura básica. Isso pode prejudicar estudos, produção de conteúdo e organização de informações.
 
 ## 💡 Proposta da solução
 
-O **Analisador de Texto CLI** é uma aplicação simples em Python que permite ao usuário analisar textos diretamente pelo terminal. A ferramenta fornece informações úteis como contagem de palavras, caracteres, frequência de termos e identificação de repetições, auxiliando na melhoria da escrita.
+O Analisador de Texto é uma aplicação CLI simples que permite analisar textos de forma rápida e prática, fornecendo informações úteis como contagem de palavras, caracteres e outras métricas relevantes.
 
 ## 👥 Público-alvo
 
-* Estudantes do ensino médio e superior
-* Pessoas que produzem textos com frequência
-* Usuários que desejam uma ferramenta simples e rápida de análise textual
-
-## ⚙️ Funcionalidades principais
-
-* Contagem de caracteres
-* Contagem de palavras
-* Identificação das palavras mais usadas
-* Estatísticas gerais do texto
-* Identificação da maior palavra
-* Interface interativa via CLI com seleção múltipla de funções
+* Estudantes
+* Escritores
+* Qualquer pessoa que trabalhe com texto
+  
+## ⚙️ Funcionalidades
+*  Contagem de palavras
+*  Contagem de caracteres
+*  Análise básica de texto
+*  Interface via linha de comando (CLI) 
 
 ## 🛠️ Tecnologias utilizadas
 
-* Python 3.x
-* Biblioteca padrão (`string`)
+* Python 3.13.12
+* GitHub Actions (CI)
 * pytest (testes automatizados)
-* flake8
+* flake8 (linting)
 
 ## 📦 Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/analisador-texto-cli.git
-cd analisador-texto-cli
+git clone https://github.com/guilhermerp16/Bootcamp-II.git
+cd Bootcamp-II/"Analisador de texto"
 pip install -r requirements.txt
 ```
 
@@ -53,21 +50,6 @@ python -m pytest
 ## 🔢 Versão atual
 
 v1.0.0
-
-## 📁 Estrutura do projeto
-
-```
-analisador-texto-cli/
-│
-├── app/
-│   └── main.py
-│
-├── tests/
-│   └── test_app.py
-│
-├── README.md
-└── requirements.txt 
-```
 
 ## 🧠 Como usar
 
